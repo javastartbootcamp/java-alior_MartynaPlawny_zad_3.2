@@ -22,4 +22,8 @@ public class Triangle {
     public double getTriangleC() {
         return triangleC;
     }
+
+    double calculateTrianglePerimeter(Triangle triangle) {
+        return triangle.getTriangleA() + triangle.getTriangleB() + triangle.getTriangleC();
+    }
 }

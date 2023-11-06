@@ -10,4 +10,8 @@ public class Circle {
     public double getCircleR() {
         return circleR;
     }
+
+    double calculateCircleArea(Circle circle) {
+        return Math.PI * Math.pow(circle.getCircleR(), 2);
+    }
 }

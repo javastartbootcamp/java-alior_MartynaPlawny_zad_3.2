@@ -16,4 +16,8 @@ public class Rectangle {
     public double getRectangleB() {
         return rectangleB;
     }
+
+    double calculateRectPerimeter(Rectangle rectangle) {
+        return rectangle.getRectangleA() * 2 + rectangle.getRectangleB() * 2;
+    }
 }

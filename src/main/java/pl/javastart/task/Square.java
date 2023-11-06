@@ -10,4 +10,8 @@ public class Square {
     public double getSquareA() {
         return squareA;
     }
+
+    double calculateSquareArea(Square square) {
+        return Math.pow(square.getSquareA(), 2);
+    }
 }
